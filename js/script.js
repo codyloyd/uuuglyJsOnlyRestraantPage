@@ -33,7 +33,7 @@ function loadContent(selector){
   $("section").empty()
   if (selector == "home") {
     $("section").append('<h1>This is an awesome restraant...</h1>');
-    $("section").append('<p>...aaand this site has been made entirely from javascript/jQuery. <br> Really, it\'s a big fat pain in the neck doing it this way, but I suppose it\'s good practice working with js/jquery... which is what I\'m working toward anyway.</p> <p>I know the site is ugly as all get out.. but I don\'t much care as long as it works.</p><p>Isn\'t that header a pleasant shade of purple though?</p> <h3>really though.. there is nothing inside the htmlfile.. and there isn\'t a css file at all besides the reset.  Kinda proud of that, even if the site does look pretty lame</h3>);
+    $("section").append('<p>...aaand this site has been made entirely from javascript/jQuery. <br> Really, it\'s a big fat pain in the neck doing it this way, but I suppose it\'s good practice working with js/jquery... which is what I\'m working toward anyway.</p> <p>I know the site is ugly as all get out.. but I don\'t much care as long as it works.</p><p>Isn\'t that header a pleasant shade of purple though?</p> <h3>really though.. there is nothing inside the htmlfile.. and there isn\'t a css file at all besides the reset.  Kinda proud of that, even if the site does look pretty lame </h3>');
   } else if (selector == "menu") {
     $("section").append('<h1>restrAAnt Menu:</h1>');
     $("section").append('<h3>tacos</h3> <h3>burgers</h3> <h3>pizza</h3> <h3>other stuff that\'ll kill ya</h3>');
