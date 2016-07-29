@@ -8,6 +8,10 @@ $(document).ready(function(){
   $("#content").append("<header></header>");
   $("#content").append('<div id="main-section"></div>');
   $("header").append("<h1>Carlos's RESTRAANT</h1>");
+  $("#main-section").append('<nav></nav>');
+    $("nav").append('<div class="tabs" id="home">home</div>');
+    $("nav").append('<div class="tabs" id="menu">menu</div>');
+    $("nav").append('<div class="tabs" id="contact">contact</div>');
   $("#main-section").append('<h1>This is an awesome restraant...</h1>');
   $("#main-section").append('<p>...aaand this site has been made entirely from javascript/jQuery. <br> Really, it\'s a big fat pain in the neck doing it this way, but I suppose it\'s good practice working with js/jquery... which is what I\'m working toward anyway.</p> <p>I know the site is ugly as all get out.. but I don\'t much care as long as it works.</p><p>Isn\'t that header a pleasant shade of purple though?</p>');
   $("header").css({
@@ -26,8 +30,21 @@ $(document).ready(function(){
     "background-color":"rgba(200,200,200,.6)",
     "border-radius":"10px",
     "margin":"auto",
+    "margin-top": "40px",
     "padding":"0 70px 10px 70px",
     "text-align":"center",
     "width":"70%"
+  });
+  $("nav").css({
+    "position":"relative",
+    "top":"-39px"
+  });
+  $(".tabs").css({
+    "background-color":"rgba(200,200,200,.6)",
+    "border-top-left-radius":"10px",
+    "border-top-right-radius":"10px",
+    "display":"inline-block",
+    "margin":"10px 5px 0px 5px",
+    "padding":"5px 10px 5px 14px"
   });
 });
